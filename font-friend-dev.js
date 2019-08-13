@@ -128,7 +128,7 @@
 		var self = $(this),
 			val = self.val(),
 			apiName = val.replace(/ /g, '+'),
-			base = "http://fonts.googleapis.com/css?family=",
+			base = "https://fonts.googleapis.com/css?family=",
 			suffix, url;
 
 			if ( val === '0' || ! fontFriend.googleFamilies[val] ) {
